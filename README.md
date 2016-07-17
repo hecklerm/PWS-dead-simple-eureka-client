@@ -9,3 +9,5 @@ cf cups eureka-service -p {"uri":"http://eureka-service-unassuageable-unkindline
 ## Bind the discovery client app to the Eureka server/service
 cf bind-service dead-simple-eureka-client eureka-service
 
+NOTE: No code/configuration I tried (and there were several, this being the latest) allowed the Eureka client app to register with the Eureka server. Creating the service & binding to it from the client app did.
+
