@@ -1,0 +1,5 @@
+---
+  applications:
+    - name: dead-simple-eureka-client
+      path: target/dead-simple-eureka-client-0.0.1-SNAPSHOT.jar
+      memory: 512M
